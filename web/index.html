@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ICR Engine Output</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resource/css/icon.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resource/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/angular-material.min.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/fontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/datatables.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/jqueryui.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/dataTable/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css" href="resource/css/custom.css"/>
+    </head>
+    <body>
+        <div class="wrapper" style="">
+
+            <!--....................................................................................................................................................-->            
+            <!--header--> 
+            <div>  
+                <nav>
+                    <div class="nav-wrapper" style="background-color: #fff;color:#0d47a1 ">
+                        <a href="#" class="brand-logo right"><img src="resource/images/logo.jpg" style='width:100%;height:100%'></a>
+                    </div>
+                </nav> 
+            </div>   
+            <!--end of header--> 
+            <!--....................................................................................................................................................-->   
+            <!--sub header--> 
+            <div class="row ">  
+                <div class="col s12">
+                    <div class="" align="center" style="background-color: #fff;margin-top: 2% ">
+                        <h5 style="font-weight: bold;color:navy">  Image Character Recognition Engine Output  </h5>
+
+                    </div>
+                </div>
+            </div>  
+            <!--end of sub header--> 
+
+            <!--....................................................................................................................................................-->
+            <div class="container row headingCSS">
+                <span>Policy information</span> 
+            </div>
+            <div class="row container rcorners2">
+                <div class="input-field col s3">
+                    <input disabled  placeholder="PC00351549" id="Form_number" type="text" class="validate greenC">
+                    <label for="Form_number">Form Number</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="DELHI" id="Branch_name" type="text" class="validate greenC">
+                    <label for="Branch_name">Branch Name</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="DO" id="Branch_code" type="text" class="validate greenC">
+                    <label for="Branch_code">Branch Code</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="Agency" id="Intermediary" type="text" class="validate greenC">
+                    <label for="Intermediary">Intermediary</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="SHOBBA JAIN" id="Intermediaries_Name" type="text" class="validate yellowC">
+                    <label for="Intermediaries_Name">Intermediaries Name</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="A0013955" id="Intermediary_Code" type="text" class="validate redC">
+                    <label for="Intermediary_Code">Intermediary Code</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="28/03/2015" id="Proposal_Received_On" type="text" class="validate yellowC">
+                    <label for="Proposal_Received_On">Proposal Received On</label>
+                </div>      
+                <div class="input-field col s3">
+                    <input disabled  placeholder="INDIVIDUAL" id="Policy_Type" type="text" class="validate greenC">
+                    <label for="Policy_Type">Policy Type</label>
+                </div>      
+                
+                 <div class="input-field col s4">
+                    <input disabled  placeholder="1 YEAR" id="Proposed_Policy_Tenure" type="text" class="validate greenC">
+                    <label for="Proposed_Policy_Tenure">Proposed Policy Tenure</label>
+                </div>
+                 <div class="input-field col s4">
+                    <input disabled  placeholder="1" id="Adults" type="text" class="validate greenC">
+                    <label for="Adults">Adults</label>
+                </div>
+                 <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Children" type="text" class="validate greenC">
+                    <label for="Children">Children</label>
+                </div>
+                 <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Sum_Insured_Classic" type="text" class="validate greenC">
+                    <label for="Sum_Insured_Classic">Sum Insured Classic</label>
+                </div>
+                 <div class="input-field col s4">
+                    <input disabled  placeholder="10 LACS" id="Sum_Insured_Supreme" type="text" class="validate greenC">
+                    <label for="Sum_Insured_Supreme">Sum Insured Supreme</label>
+                </div>
+                 <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Sum_Insured_Elite" type="text" class="validate greenC">
+                    <label for="Sum_Insured_Elite">Sum Insured Elite</label>
+                </div>
+            </div>
+            
+            <div class="container row headingCSS">
+                <span>Personal information</span> 
+            </div>
+            <div class="row container rcorners2">
+                 <div class="input-field col s1">
+                    <input disabled  placeholder="Mr." id="Title" type="text" class="validate greenC">
+                    <label for="Title">Title</label>
+                </div>
+                 <div class="input-field col s11">
+                    <input disabled  placeholder="JIIESH SABWAM" id="Name_of_the_Proposer" type="text" class="validate redC">
+                    <label for="Name_of_the_Proposer">Name of the Proposer</label>
+                </div>
+                 <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="PAN_Number" type="text" class="validate redC">
+                    <label for="PAN_Number">PAN Number</label>
+                </div>
+                 <div class="input-field col s3">
+                    <input disabled  placeholder="SINGLE" id="Marital_Status" type="text" class="validate greenC">
+                    <label for="Marital_Status">Marital Status</label>
+                </div>
+                 <div class="input-field col s3">
+                    <input disabled  placeholder="INDIAN" id="Nationality" type="text" class="validate greenC">
+                    <label for="Nationality">Nationality</label>
+                </div>
+                 <div class="input-field col s3">
+                    <input disabled  placeholder="20/02/1998" id="Date_of_Birth" type="text" class="validate yellowC">
+                    <label for="Date_of_Birth">Date of Birth</label>
+                </div>
+                 <div class="input-field col s3">
+                    <input disabled  placeholder="POST GRADUATE" id="Education_Qualification" type="text" class="validate greenC">
+                    <label for="Education_Qualification">Education Qualification</label>
+                </div>
+                 <div class="input-field col s3">
+                    <input disabled  placeholder="STUDENT" id="Occupation" type="text" class="validate greenC">
+                    <label for="Occupation">Occupation</label>
+                </div>
+                 <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="If_salaried_specify_designation" type="text" class="validate redC">
+                    <label for="If_salaried_specify_designation">If salaried specify designation</label>
+                </div>
+                 <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="If_Self_employed_specify_business" type="text" class="validate greenC">
+                    <label for="If_Self_employed_specify_business">If Self employed specify business</label>
+                </div>
+                 <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Annual_Income" type="text" class="validate greenC">
+                    <label for="Annual_Income">Annual Income</label>
+                </div>
+                 <div class="input-field col s12">
+                     <textarea disabled id="Address" placeholder="2336 KATAA KOONHNSHHH BENNHD KKIUL MASHJID BBARZR SIA RMM" class="materialize-textarea redC"></textarea>
+                    <label for="Address">Address for Correspondence</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="DELHI" id="City" type="text" class="validate greenC">
+                    <label for="City">City</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="State" type="text" class="validate greenC">
+                    <label for="State">State</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Landmark" type="text" class="validate redC">
+                    <label for="Landmark">Landmark</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="170006" id="Pincode" type="text" class="validate yellowC">
+                    <label for="Pincode">Pincode</label>
+                </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix " style="color:#B8860B">phone</i>
+                    
+                    <input disabled placeholder="9871294168" id="icon_telephone" type="tel" class="validate yellowC">
+                    <label for="icon_telephone">Mobile</label>
+                </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix " style="color:red">email</i>
+                    <input disabled placeholder="SSHFGNDHAWN@GMAIL.COM " id="email" type="email" class="validate redC">
+                      <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+            </div>
+            <div class="container row headingCSS">
+                <span>Insurance Information</span> 
+            </div>
+            <div class="row container rcorners2">
+                <div class="input-field col s6">
+                    <input disabled  placeholder="JIIESH SABWAN" id="InsuredName1" type="text" class="validate redC">
+                    <label for="InsuredName1">InsuredName1</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="28/02/1998" id="Insured1_DOB" type="text" class="validate yellowC">
+                    <label for="Insured1_DOB">Insured1_DOB</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="MALE" id="Insured1_Gender" type="text" class="validate greenC">
+                    <label for="Insured1_Gender">Insured1_Gender</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="SELF" id="Insured1_Relationship_with_proposer" type="text" class="validate greenC">
+                    <label for="Insured1_Relationship_with_proposer">Insured1_Relationship with proposer</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="5'8'' " id="Insured1_Height" type="text" class="validate yellowC">
+                    <label for="Insured1_Height">Insured1_Height</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="58 KG" id="Insured1_Weight" type="text" class="validate yellowC">
+                    <label for="Insured1_Weight">Insured1_Weight</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="STUDENT" id="Insured1_Profession" type="text" class="validate greenC">
+                    <label for="Insured1_Profession">Insured1_Profession</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="InsuredName2" type="text" class="validate redC">
+                    <label for="InsuredName2">InsuredName2</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Insured2_DOB" type="text" class="validate yellowC">
+                    <label for="Insured2_DOB">Insured2_DOB</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Insured2_Gender" type="text" class="validate greenC">
+                    <label for="Insured2_Gender">Insured2_Gender</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Insured2_Relationship_with_proposer" type="text" class="validate greenC">
+                    <label for="Insured2_Relationship_with_proposer">Insured2_Relationship with proposer</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="NA" id="Insured2_Height" type="text" class="validate yellowC">
+                    <label for="Insured2_Height">Insured2_Height</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="NA" id="Insured2_Weight" type="text" class="validate yellowC">
+                    <label for="Insured2_Weight">Insured2_Weight</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Insured2_Profession" type="text" class="validate greenC">
+                    <label for="Insured2_Profession">Insured2_Profession</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="InsuredName3" type="text" class="validate yellowC">
+                    <label for="InsuredName3">InsuredName3</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Insured3_DOB" type="text" class="validate yellowC">
+                    <label for="Insured3_DOB">Insured3_DOB</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Insured3_Gender" type="text" class="validate greenC">
+                    <label for="Insured3_Gender">Insured3_Gender</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Insured3_Relationship_with_proposer" type="text" class="validate greenC">
+                    <label for="Insured3_Relationship_with_proposer">Insured3_Relationship with proposer</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="NA" id="Insured3_Height" type="text" class="validate yellowC">
+                    <label for="Insured3_Height">Insured3_Height</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="NA" id="Insured3_Weight" type="text" class="validate yellowC">
+                    <label for="Insured3_Weight">Insured3_Weight</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Insured3_Profession" type="text" class="validate greenC">
+                    <label for="Insured3_Profession">Insured3_Profession</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="InsuredName4" type="text" class="validate yellowC">
+                    <label for="InsuredName4">InsuredName4</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Insured4_DOB" type="text" class="validate yellowC">
+                    <label for="Insured4_DOB">Insured4_DOB</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Insured4_Gender" type="text" class="validate greenC">
+                    <label for="Insured4_Gender">Insured4_Gender</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Insured4_Relationship_with_proposer" type="text" class="validate greenC">
+                    <label for="Insured4_Relationship_with_proposer">Insured4_Relationship with proposer</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="NA" id="Insured4_Height" type="text" class="validate yellowC">
+                    <label for="Insured4_Height">Insured4_Height</label>
+                </div>
+                <div class="input-field col s2">
+                    <input disabled  placeholder="NA" id="Insured4_Weight" type="text" class="validate yellowC">
+                    <label for="Insured4_Weight">Insured4_Weight</label>
+                </div>
+                <div class="input-field col s4">
+                    <input disabled  placeholder="NA" id="Insured4_Profession" type="text" class="validate greenC">
+                    <label for="Insured4_Profession">Insured4_Profession</label>
+                </div>
+            </div>
+            <div class="container row headingCSS">
+                <span>Additional Benefit Information</span> 
+            </div>
+            <div class="row container rcorners2">
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="Hospital_cash_benfit" type="text" class="validate greenC">
+                    <label for="Hospital_cash_benfit">Hospital cash benfit</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="Emergency_Hospitalization_and_Internation_treatment" type="text" class="validate greenC">
+                    <label for="Emergency_Hospitalization_and_Internation_treatment">Emergency Hospitalization and Internation treatment</label>
+                </div>
+            </div>
+            <div class="container row headingCSS">
+                <span>Nominee Information</span> 
+            </div>
+            <div class="row container rcorners2">
+                <div class="input-field col s6">
+                    <input disabled  placeholder="SH SUUESH KUMAV SAGNAN" id="Nominee_Name" type="text" class="validate redC">
+                    <label for="Nominee_Name">Nominee Name</label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="FATHER" id="Relationship_with_the_proposer" type="text" class="validate greenC">
+                    <label for="Relationship_with_the_proposer">Relationship with the proposer </label>
+                </div>
+                <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="phone_number_of_the_Nominee" type="text" class="validate greenC">
+                    <label for="phone_number_of_the_Nominee">phone number of the Nominee</label>
+                </div>
+                <div class="input-field col s12">
+                     <textarea disabled id="AddressOfNominee" placeholder="AS NENTIONNED" class="materialize-textarea redC"></textarea>
+                    <label for="AddressOfNominee">Address of the Nominee</label>
+                </div>
+            </div>
+            <div class="container row headingCSS">
+                <span>Medical & Lifestyle Information</span> 
+            </div>
+            <div class="row container rcorners2">
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured1" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured1">With in last 2 years have you Consulted Doctor or Healthcare_Insured1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured2" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured2">With in last 2 years have you Consulted Doctor or Healthcare_Insured2</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured3" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured3">With in last 2 years have you Consulted Doctor or Healthcare_Insured3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured4" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_Consulted_Doctor_or_Healthcare_Insured4">With in last 2 years have you Consulted Doctor or Healthcare_Insured4</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="N0" id="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured1" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured1">With in last 2 years have you underwent for any detailed investigation_Insured1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured2" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured2">With in last 2 years have you underwent for any detailed investigation_Insured2</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured3" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured3">With in last 2 years have you underwent for any detailed investigation_Insured3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured4" type="text" class="validate greenC">
+                    <label for="With_in_last_2_years_have_you_underwent_for_any_detailed_investigation_Insured4">With in last 2 years have you underwent for any detailed investigation_Insured4</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured1" type="text" class="validate greenC">
+                    <label for="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured1">Within last 5 years have you been to a hospital for Operation or medical treatment_Insured1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured2" type="text" class="validate greenC">
+                    <label for="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured2">Within last 5 years have you been to a hospital for Operation or medical treatment_Insured2</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured3" type="text" class="validate greenC">
+                    <label for="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured3">Within last 5 years have you been to a hospital for Operation or medical treatment_Insured3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured4" type="text" class="validate greenC">
+                    <label for="Within_last_5_years_have_you_been_to_a_hospital_for_Operation_or_medical_treatment_Insured4">Within last 5 years have you been to a hospital for Operation or medical treatment_Insured4</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured1" type="text" class="validate greenC">
+                    <label for="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured1">Do you take tablets_medicines_drugs on a regular basis_Insured1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured2" type="text" class="validate greenC">
+                    <label for="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured2">Do you take tablets_medicines_drugs on a regular basis_Insured2</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured3" type="text" class="validate greenC">
+                    <label for="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured3">Do you take tablets_medicines_drugs on a regular basis_Insured3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured4" type="text" class="validate greenC">
+                    <label for="Do_you_take_tablets_medicines_drugs_on_a_regular_basis_Insured4">Do you take tablets_medicines_drugs on a regular basis_Insured4</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured1" type="text" class="validate greenC">
+                    <label for="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured1">Within the last 3 months have you experienced any health problem_Insured1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured2" type="text" class="validate greenC">
+                    <label for="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured2">Within the last 3 months have you experienced any health problem_Insured2</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured3" type="text" class="validate greenC">
+                    <label for="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured3">Within the last 3 months have you experienced any health problem_Insured3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured4" type="text" class="validate greenC">
+                    <label for="Within_the_last_3_months_have_you_experienced_any_health_problem_Insured4">Within the last 3 months have you experienced any health problem_Insured4</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NO" id="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured1" type="text" class="validate greenC">
+                    <label for="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured1">Have any of the person proposed to be insured ever suffered or taken treatment_Insured1</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured2" type="text" class="validate greenC">
+                    <label for="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured2">Have any of the person proposed to be insured ever suffered or taken treatment_Insured2</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured3" type="text" class="validate greenC">
+                    <label for="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured3">Have any of the person proposed to be insured ever suffered or taken treatment_Insured3</label>
+                </div>
+                <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured4" type="text" class="validate greenC">
+                    <label for="Have_any_of_the_person_proposed_to_be_insured_ever_suffered_or_taken_treatment_Insured4">Have any of the person proposed to be insured ever suffered or taken treatment_Insured4</label>
+                </div>
+            </div>
+            <div class="container row headingCSS">
+                <span>Payment details</span> 
+            </div>
+            <div class="row container rcorners2">
+               <div class="input-field col s3">
+                    <input disabled  placeholder="CHEQUE" id="Payment_Option" type="text" class="validate greenC">
+                    <label for="Payment_Option">Payment Option</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="6189" id="Premium_Amount" type="text" class="validate yellowC">
+                    <label for="Premium_Amount">Premium Amount</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="728327" id="Cheque_Number" type="text" class="validate yellowC">
+                    <label for="Cheque_Number">Cheque Number</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="27/02/2015" id="Cheque_Date" type="text" class="validate yellowC">
+                    <label for="Cheque_Date">Cheque Date</label>
+                </div> 
+               <div class="input-field col s12">
+                    <input disabled  placeholder="HDFC BANK" id="Bank" type="text" class="validate greenC">
+                    <label for="Bank">Bank</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="payment_calims_Bank_Name" type="text" class="validate greenC">
+                    <label for="payment_calims_Bank_Name">payment calims_Bank Name</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Branch" type="text" class="validate greenC">
+                    <label for="Branch">Branch</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="City" type="text" class="validate greenC">
+                    <label for="City">City</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="IFSC_code" type="text" class="validate redC">
+                    <label for="IFSC_code">IFSC code</label>
+                </div> 
+               <div class="input-field col s6">
+                    <input disabled  placeholder="NA" id="Account_Number" type="text" class="validate yellowC">
+                    <label for="Account_Number">Account Number</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Place" type="text" class="validate greenC">
+                    <label for="Place">Place</label>
+                </div> 
+               <div class="input-field col s3">
+                    <input disabled  placeholder="NA" id="Date" type="text" class="validate yellowC">
+                    <label for="Date">Date</label>
+                </div> 
+            </div>
+        </div>
+        <script>var myContextPath = "${pageContext.request.contextPath}"</script>
+        <script type="text/javascript" src="resource/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="resource/JS/jquery-ui.js"></script>
+        <script type="text/javascript" src="resource/JS/materialize.min.js"></script>
+        <script type="text/javascript" src="resource/JS/datatables.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('select').material_select();
+            });
+        </script>
+    </body>
+</html>
